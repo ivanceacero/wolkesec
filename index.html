@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WolkeSec - Ciberseguridad y Cloud Consulting para PYMES. Especialistas en migración segura a la nube, monitorización (Wazuh) y formación.">
+    <title>WolkeSec | Ciberseguridad y Cloud Consulting para PYMES</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <canvas id="cyberCanvas"></canvas>
+
+    <!-- Header / Nav -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text"><span class="wolke-text">Wolke</span><span class="sec-text">Sec</span></span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Abrir menú" id="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#contacto" class="btn btn-primary btn-nav">Contactar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <img src="assets/logo2.png" alt="WolkeSec"
+                style="height: auto; width: 100%; max-width: 400px; margin-bottom: 9.5rem; margin-left: auto; margin-right: auto; display: block;"
+                class="fade-in-up">
+            <h1 class="fade-in-up delay-1">Seguridad y Cloud Computing <br><span class="highlight">al alcance de tu
+                    PYME</span>
+            </h1>
+            <p class="fade-in-up delay-2">Facilitamos la adopción de entornos cloud de forma segura, eficiente y
+                comprensible. No dejes la ciberseguridad para mañana.</p>
+            <div class="hero-actions fade-in-up delay-3">
+                <a href="#servicios" class="btn btn-primary">Descubre nuestros servicios</a>
+                <a href="#contacto" class="btn btn-secondary">Habla con un experto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">El puente seguro hacia la nube</h2>
+                    <p>La digitalización empresarial impulsa la adopción de soluciones cloud (AWS, Azure, Google Cloud).
+                        Sin embargo, muchas pequeñas y medianas empresas se enfrentan a configuraciones inseguras, falta
+                        de monitorización y desconocimiento de buenas prácticas.</p>
+                    <p>En <strong>WolkeSec</strong> actuamos como tu facilitador tecnológico. Acompañamos a tu empresa
+                        para reducir la brecha tecnológica, diseñando e implementando una infraestructura moderna,
+                        robusta y protegida frente a ciberataques.</p>
+                    <ul class="check-list">
+                        <li>Análisis y diseño de arquitectura cloud.</li>
+                        <li>Migración a la nube segura y sin fricciones.</li>
+                        <li>Monitorización proactiva y detección de amenazas.</li>
+                        <li>Formación y concienciación de tus empleados.</li>
+                    </ul>
+                </div>
+                <div class="about-visual">
+                    <div class="glass-panel">
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Especialización en PYMES y Microempresas</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Visibilidad total</h3>
+                            <p>Sabrás en todo momento qué ocurre en tu infraestructura.</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Acompañamiento</h3>
+                            <p>No solo implementamos: te acompañamos en todo el proceso.</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Formación incluida</h3>
+                            <p>Tu equipo aprende a usar y proteger las herramientas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Principales -->
+    <section id="servicios" class="services section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Nuestros Pilares</h2>
+                <p>Un enfoque integral para blindar tu infraestructura tecnológica.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card glass-panel">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                        </svg>
+                    </div>
+                    <h3>Migración segura a la nube</h3>
+                    <p>Diseño e implementación de infraestructuras cloud utilizando plataformas líderes como Amazon Web
+                        Services (AWS).</p>
+                    <ul>
+                        <li>Reducción de costes.</li>
+                        <li>Alta disponibilidad.</li>
+                        <li>Acceso remoto seguro.</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="service-card glass-panel featured-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h3>Seguridad y monitorización</h3>
+                    <p>Implementación de herramientas avanzadas para proteger tu red e identificar amenazas antes de que
+                        sean un problema.</p>
+                    <ul>
+                        <li>Monitorización con Wazuh.</li>
+                        <li>Protección EDR en endpoints.</li>
+                        <li>Gestión de accesos e identidades.</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="service-card glass-panel">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                        </svg>
+                    </div>
+                    <h3>Formación y capacitación</h3>
+                    <p>Potenciamos la primera línea de defensa: tu equipo. Talleres prácticos adaptados a usuarios sin
+                        perfil técnico.</p>
+                    <ul>
+                        <li>Buenas prácticas de seguridad.</li>
+                        <li>Gestión de contraseñas.</li>
+                        <li>Concienciación frente a phishing.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Precios / Productos -->
+    <section id="precios" class="pricing section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Nuestras Soluciones</h2>
+                <p>Servicios profesionales a un coste asumible, adaptados a las necesidades y tamaño de cada empresa.
+                    </br>Precios orientativos para empresas de unas 20 personas.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+
+                <!-- Pricing Card 1 -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Migración Cloud</h3>
+                        <p class="price-desc">Precio medio estimado</p>
+                        <div class="price">
+                            <span class="currency">€</span>1.200<span class="period"></span>
+                        </div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="features-list">
+                            <li>Análisis inicial de infraestructura</li>
+                            <li>Diseño de arquitectura cloud (AWS)</li>
+                            <li>Migración de servicios</li>
+                            <li>Configuración de redes virtuales</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline btn-full">Solicitar Evaluación</a>
+                    </div>
+                </div>
+
+                <!-- Pricing Card 2 (Destacada) -->
+                <div class="pricing-card highlighted">
+                    <div class="popular-badge">Más demandado</div>
+                    <div class="pricing-header">
+                        <h3>Seguridad</h3>
+                        <p class="price-desc">Wazuh + Hardening</p>
+                        <div class="price">
+                            <span class="currency">€</span>700<span class="period"></span>
+                        </div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="features-list">
+                            <li>Instalación de monitorización (Wazuh)</li>
+                            <li>Configuración de accesos</li>
+                            <li>Protección de endpoints (EDR)</li>
+                            <li>Ajustes de seguridad y firewall</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary btn-full">Contratar Seguridad</a>
+                    </div>
+                </div>
+
+                <!-- Pricing Card 3 -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Formación</h3>
+                        <p class="price-desc">Talleres prácticos</p>
+                        <div class="price">
+                            <span class="currency">€</span>250<span class="period"> / sesión</span>
+                        </div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="features-list">
+                            <li>Bolsa de horas de formación</li>
+                            <li>Uso de herramientas cloud</li>
+                            <li>Concienciación ciberataques</li>
+                            <li>Gestión segura de accesos</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline btn-full">Reservar Taller</a>
+                    </div>
+                </div>
+
+                <!-- Pricing Card 4 -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Mantenimiento</h3>
+                        <p class="price-desc">Soporte continuo</p>
+                        <div class="price">
+                            <span class="currency">€</span>50<span class="period"> / mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="features-list">
+                            <li>Monitorización continua</li>
+                            <li>Resolución de incidencias</li>
+                            <li>Actualizaciones de seguridad</li>
+                            <li>Soporte técnico cercano</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline btn-full">Contratar Mantenimiento</a>
+                    </div></br>
+                </div>
+
+                <!-- Pack Completo (Full Width) -->
+                <div class="pricing-card pack-completo highlighted">
+                    <div class="popular-badge">Pack Completo Integral</div>
+                    <div class="pack-content">
+                        <div class="pack-info">
+                            <h3>Solución Integral 360º</h3>
+                            <p>Combina Migración Cloud, Seguridad Avanzada, Formación y Mantenimiento Continuo en un
+                                único paquete para proteger tu empresa al máximo nivel.</p>
+                        </div>
+                        <div class="pack-price">
+                            <div class="price">
+                                <span class="currency"
+                                    style="font-size:1.2rem; align-self:center; margin-right:8px;">Desde
+                                    €</span>1.900<span class="period"> / año</span>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary btn-large">Contratar Pack Completo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contacto -->
+    <section id="contacto" class="cta-section section-padding bg-primary">
+        <div class="container text-center">
+            <h2 class="section-title">¿Listo para dar el salto a la nube de forma segura?</h2>
+            <p>Déjanos tus datos y un experto de WolkeSec se pondrá en contacto contigo para evaluar las necesidades de
+                tu empresa, así como darte un presupuesto cerrado.</p>
+            <form class="contact-form glass-panel"
+                onsubmit="event.preventDefault(); alert('Formulario enviado (Demo)');">
+                <div class="form-group">
+                    <input type="text" placeholder="Nombre de la empresa" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Correo electrónico" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">Solicitar Información</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">WolkeSec</div>
+                    <p>Seguridad y Cloud Consulting para PYMES y microempresas. Hacemos fácil lo complejo.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto y Legal</h4>
+                    <ul>
+                        <li>WolkeSec Security Solutions S.L.</li>
+                        <li>Linares (Jaén), Andalucía, España</li>
+                        <li><a href="mailto:info@wolkesec.com">info@wolkesec.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WolkeSec Security Solutions S.L. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
